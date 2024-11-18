@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="main_box">
+        <input type="checkbox" id="check" />
+        <div class="btn_one">
+          <label for="check">
+            <i class="fa-solid fa-bars"></i>
+
+          </label>
+        </div>
+  
+        <div class="sidebar_menu">
+                <div class="menuName">
+                  <h1>MENU</h1>
+                </div>
+
+          <div class="btn_two">
+            <label for="check" >
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+          </div>
+  
+          <div class="menu">
+            <ul>
+                
+              <li>
+                <i class="fa-solid fa-circle-info"></i>
+                <a href="#about">ABOUT GAME</a>
+              </li>
+              <li>
+                <i class="fa-regular fa-user"></i>
+                <a href="#player1">RULES FOR PLAYING ALONE</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-user-group"></i>
+                <a href="#player2">RULES FOR PLAYING WITH 2 PLAYERS</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-people-group"></i>
+                <a href="#player3">RULES FOR PLAYING WITH 3 OR 4 PLAYERS</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-gamepad"></i>
+                <a href="#more">MORE GAMES LIKE THIS</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="social_media">
+            SHARE THIS GAME ON
+            <ul>
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></i></a>
+              <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
+              <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--actual game -->
+    <h1>SIMON GAME</h1>
+    <h3>PRESS ANY KEY TO START THE GAME</h3>
+    <br><br>
+    <div id="container">
+        <div class="red box" type="button" id="red"></div>
+        <div class="yellow  box" type="button" id="yellow"></div>
+        <div class="blue  box" type="button" id="blue"></div>
+        <div class="yellowgreen box"  type="button" id="yellowgreen"></div>
+    </div>
+    <br><br><br><hr>
+    <!-- about the game -->
+    <div id="about">
+        <h1>ABOUT THE GAME</h1>
+       <p> If you’re looking for a fun game that’s perfect for kids and adults, Simon Says is the perfect thing to play. Simon Says is perfect for improving listening skills for children, and it’s super easy to learn for the whole family. Keep reading, and we’ll walk you through how to play as well as some exciting variations to try out
+    </p>
+    </div>
+
+    <!-- players info -->
+    <div id="players-container">
+        <div id="player1" class="player">
+            <h1>For 1 Player.</h1>
+            <h4>What you have to do?<br>
+                Correctly repeat a longer and longer sequence of signals.</h4>
+                <hr>
+                <h3>How to play?</h3>
+                <ol>
+                    <li> Press any key on the keyboard to start the game.</li>
+
+                    <li> Simon will give the first signal
+                        through a flash light on that button. 
+                        Repeat the signal by pressing the same color button.</li>
+                        
+                    <li>If you press the right color button then Simon will duplicate the
+                         first signal and add one. Repeat these
+                         two signals by pressing the same color buttons, in order.</li>
+                        
+                    <li>Then again, Simon will duplicate these first two signals and add one.</li>
+                        
+                    <li>Continue playing as long as you can remember and repeat 
+                        each sequence of signals correctly.</li>
+
+                    <li>If you press the wrong color button then Simon responds with 
+                        a red alert which means you have lost and you have to restart the game by pressing any key on the keyboard</li>
+                    
+                    <li>Press any key on the keyboard to begin a game again.</li>
+                </ol>
+        </div>
+        <div id="player2" class="player">
+            <h1>For 2 Players.</h1>
+            <h4>What you have to do?<br>
+                Create a longer and longer sequence of signals.</h4>
+                <hr>
+                <h3>How to play?</h3>
+                <ol>
+                    <li>Follow Steps for one player game.</li>
+
+                    <li>Player 1 repeats the first signal and adds one.</li>
+
+                    <li>Player 2 repeats the first two signals and adds one.</li>
+
+                    <li>Play continues clockwise with each player repeating 
+                        the signals of the previous sequence and adding one
+                         more.</li>
+
+                    <li>Any player who makes an error have lost and is out of the game.</li>
+
+                    <li>The last player left in the game wins!</li>
+
+                    <li>Press any key on the keyboard to begin a game again.</li>
+                </ol>
+        </div>
+        <div id="player3" class="player">
+            <h1>For 3 or 4 Players.</h1>
+            <h4>What you have to do?<br>
+                Repeat correctly the longest sequence of signals.</h4>
+                <hr>
+                <h3>How to play?</h3>
+                <ol>
+                    
+
+                    <li>Each player chooses one color button and will press 
+                        only that color button
+                        in the game.</li>
+                    
+                    <li> Press any key on the keyboard to start the game.</li>
+
+                    <li>Simon will give the first signal.</li>
+                        
+                    <li>The player who chose that color repeats the signal.</li>
+                        
+                    <li>Play continues as described in Game 1, except that each 
+                        player presses only his or her chosen color in the proper 
+                        sequence.</li>
+                        
+                    <li>If you press your color out of sequence then you are
+                        out of the game. The game will then begin again for the rmaining players according
+                        to pre-described steps</li>
+
+                    <li>The last player left in the game wins!</li>
+
+                    <li>Press any key on the keyboard to begin a game again.</li>      
+                </ol>
+        </div>
+
+    </div>
+    <div id="more">
+        <h1>MORE GAMES LIKES THIS</h1>
+        <div id="more-container">
+          <div class="games">
+            <b>Card memory game</b><br><hr>
+            Materials: deck of playing cards. <br>
+    
+            <p>Lay out nine cards on a table and give the other player five 
+                minutes to memorize the cards. Turn them over and ask 
+                them to remember where they saw specific cards. </p>
+          </div>
+          <div class="games">
+            <b>Twister</b><br><hr>
+            Materials: Twister board game
+
+            <p>One referee spins the wheel and tells players where to place
+            their hands and feet on the colored mat.
+            It’s fun for the whole family!</p>
+          </div>
+          <div class="games">
+            <b>Hot potato </b><br><hr>
+            Materials: music; plastic ball (or a real potato!)<br>
+
+            <p>Seat everyone in a circle. Pass a ball or potato around as 
+                music plays. When the music stops, the person holding the 
+                potato leaves the game. The last person left wins!</p>
+          </div>
+          <div class="games">
+            <b>Scavenger hunt</b><br><hr>
+            Materials: soft toys, pocket-size games and/or chocolate; a timer. <br>
+
+            <p>Kids will have tons of fun searching the house for the 
+            colorful and 
+             interesting items you’ve hidden. Set a timer to keep them 
+             moving! </p>
+          </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
